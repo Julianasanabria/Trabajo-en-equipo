@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.personaimg{
+    width:80%;
+    max-width:200px;
+    border-radius: 10px;
+    display: block;
+    margin:0;
+}
+
+.encabezado {
+    background-color: #eb1717;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.botonmorado {
+    background-color: #6a0dad; /* Color morado */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: auto; /* Empuja el botón a la derecha */
+  }
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+ 
+}
+
+.contacto span {
+    font-weight: bold;
+    font-size: 10px;
+    display: block;
+}
+
+
+.contacto p {
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+.botonmorado {
+    background-color: #9c27b0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton{
+    width: 70%;
+    background-color: blue;
+    padding: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.cuerpo {
+    display: flex;
+    margin-top: 45px;
+    
+}
+
+.parte1{
+    display: flex;
+    width: 50%;
+}
+
+.parte2{
+    display: flex;
+    width: 50%;
+}
+
+.contenedor1 {
+    margin: 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.contenedor1 .h1{
+    margin-bottom: 2px;
+    color: #000000bb;
+}
+.purple-text{
+    color: #e100ff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Cargo{
+
+    color:#2e2e2ebb;
+    margin-top: 0;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.born_date{
+    color: rgba(27, 27, 27, 0.63);
+}
+.personaimg {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.logos {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin: 10px 0;
+    margin-bottom: 55px;
+    font-weight: bold;
+    margin-top:25px;
+
+    
+}
+.about{
+    text-align: center;
+    margin: left 0;;
+}
+.contenedor2 {
+    width: 70%;
+    padding: 20px;
+    background-color: #e1e6e4;
+    
+}
+.contenedor2 .divisor{
+    width: 100%;
+    height: 1px;
+    
+}
+
+.divisor {
+    margin-bottom:8px;
+    height: 7px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 30px;
+    
+}
+
+.divisor p {
+    opacity: 0.9;
+    font-size: 12px;
+}
+
+.partedos{
+    margin-bottom: 40px;
+    color: #9c27b0;
+    border: none;
+    height: 2px;
+    width: 100%; /* O ajusta según sea necesario */
+}
+
+
+.parrafito {
+    /* margin-top: 10px; */
+    margin-bottom: 30px;
+    border: none;
+    height: 2px;
+    width: 100%;
+}
+
+.about {
+    margin-left: -75%;
+}
+
+.p {
+    margin-left: 40px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+ul li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 2px solid #8a2be2;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.partemorada h3 {
+    color: #9c27b0;
+    font-weight: bold; 
+    }
+.about{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.ultimaparte {
+    border: none;
+    height: 2px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.ultimoparrafo {
+    border: none;
+    box-shadow: none;
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+}
+
+.demos {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    background-color: black;
+    color: orange;
+    padding: 10px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-demos {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 5px;
+}
+
+.menu-demos span {
+    width: 5px;
+    height: 20px;
+    background-color: orange;
+    display: block;
+}
